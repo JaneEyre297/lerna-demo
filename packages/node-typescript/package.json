@@ -28,7 +28,7 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run test && npm run lint",
+    "prepublishOnly": "npm run lint",
     "release": "npm run build && npm publish",
     "lint": "eslint . --ext .ts,.tsx"
   },
@@ -38,5 +38,5 @@
     "commander": "^5.1.0",
     "tslib": "~2.0.0"
   },
-  "gitHead": "11bace4bc5c5582bd779c621c28827eed2f9091c"
+  "gitHead": "fc08cfa95943871c371f0bf1ee5d0c8f32004a0d"
 }
