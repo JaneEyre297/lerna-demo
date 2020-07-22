@@ -3,7 +3,6 @@
 import action from "../actions/action";
 
 const program = require('commander');
-
 program
   .version('1.0.0')
   .option('-p --path [path]', '上传指定目录资源到CDN')
