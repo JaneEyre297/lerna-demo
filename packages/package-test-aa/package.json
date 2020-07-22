@@ -1,11 +1,11 @@
 {
-  "name": "package-test-a",
+  "name": "package-test-aa",
   "version": "0.1.3",
   "description": "> TODO: description",
   "author": "刘思颖 <liusiying@baicizhan.com>",
   "homepage": "https://github.com/JaneEyre297/lerna-demo#readme",
   "license": "ISC",
-  "main": "lib/package-test-a.js",
+  "main": "lib/package-test-aa.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,6 +22,5 @@
   },
   "bugs": {
     "url": "https://github.com/JaneEyre297/lerna-demo/issues"
-  },
-  "gitHead": "f55a8ae66dbb26d68ecfe22bb0a072b3a71c957a"
+  }
 }
